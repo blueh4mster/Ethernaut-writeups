@@ -4,10 +4,10 @@
 >   2. you reduce its balance to 0
 
 >Things that might help
->How to send ether when interacting with an ABI
->How to send ether outside of the ABI
->Converting to and from wei/ether units (see help() command)
->Fallback methods
+>   How to send ether when interacting with an ABI
+>   How to send ether outside of the ABI
+>   Converting to and from wei/ether units (see help() command)
+>   Fallback methods
 
 ``` solidity
 // SPDX-License-Identifier: MIT
@@ -79,5 +79,5 @@ and so the first step is done! Now don't forget to withdraw ether from this cont
 >await getBalance("0xf246A7CD5d85F553ee44E3271Ad8bd1f77434e95")
 <'0'
 ```
-Viola!
+Viola! We can now submit the instance.
 

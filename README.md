@@ -10,5 +10,5 @@ At the end of each challenge, we must also pay attention to how we can avoid mal
 The wargame runs on testnets and you can interact with it through Web3js and Metamask. Instruction on how to start can be found [here](https://ethernaut.openzeppelin.com/help). [Metamask](https://metamask.io/) is a browser-based Ethereum wallet. [Web3js](https://web3js.readthedocs.io/en/v1.10.0/) is a Javascript API for the Ethereum blockchain, allowing the player to interact with the blockchain via the browser console.
 
 # Index
-[0. Hello Ethernaut](lvl-0.md)
+[0. Hello Ethernaut](lvl-0.md) \
 [1. Fallback](lvl-1.md)

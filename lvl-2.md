@@ -2,8 +2,9 @@
 
 >Claim ownership of the contract below to complete this level.
 
->Things that might help
-> *Solidity Remix IDE
+> Things that might help
+> 1. Solidity Remix IDE
+
 
 ```solidity
 // SPDX-License-Identifier: MIT

@@ -31,7 +31,7 @@ In other words, tx.origin refers to the address of the account that brought abou
 
 ![ethernaut-2](https://github.com/blueh4mster/Ethernaut-writeups/assets/102573660/b13ddeec-fdd4-4ca3-81fa-73e0b847eeb2)
 
-In this challenge, we come across a smart contract Telephone which has a chanegOwner function that compares tx.origin with msg.sender. If false, owner is changed to the address we provide else returned.
+In this challenge, we come across a smart contract Telephone which has a changeOwner function that compares tx.origin with msg.sender. If unequal, owner is changed to the address we provide else returned.
 
 We can simply write another smart contract called exploit where we call the changeOwner function by instance of this contract provided to us.
 

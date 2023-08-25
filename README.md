@@ -13,4 +13,5 @@ The wargame runs on testnets and you can interact with it through Web3js and Met
 [0. Hello Ethernaut](lvl-0.md) \
 [1. Fallback](lvl-1.md)\
 [2. Fallout](lvl-2.md)\
-[3. Coin Flip](lvl-3.md)
+[3. Coin Flip](lvl-3.md)\
+[4. Telephone](lvl-4.md)

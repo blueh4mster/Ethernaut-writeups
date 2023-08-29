@@ -15,4 +15,5 @@ The wargame runs on testnets and you can interact with it through Web3js and Met
 [2. Fallout](lvl-2.md)\
 [3. Coin Flip](lvl-3.md)\
 [4. Telephone](lvl-4.md)\
-[5. Token](lvl-5.md)
+[5. Token](lvl-5.md)\
+[6. Delegation](lvl-6.md)

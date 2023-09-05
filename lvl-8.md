@@ -30,6 +30,11 @@ But this password variable is declared as `private`.
  bytes32 private password;
 ```
 
+State variables in solidity have three possible visibility modifiers i.e. `public`, `internal` or `private`.
+private variables are only accessible within the contract in which they were declared. Calling them is thus, also not possible.
+
+So,
+
 What can we do to be able to read this private variable?
 
 When a contract is deployed, the Ethereum Virtual Machine (EVM) allocates a specific amount of storage to the contract based on its size. Storage is divided into slots, each of which can store 256 bits (32 bytes) of data.

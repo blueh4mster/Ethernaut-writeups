@@ -41,7 +41,7 @@ await contract.prize()
 
 Now, we write a contract `exploit` which contains a function hack that simply sends a transaction sending the value of prize to the instance of the King contract. However, this only solves the first part of the challenge. The trickier second part is to avoid the reclaimation of kingship.
 
-We must ensure that even though an amount greater than the current prize is sent by the next address, the transfer of funds(prize) must fail so as to remain as king. To do that the key lies in the receive function as it is the one that is called when king contract calls the tranfer function.
+We must ensure that even though an amount greater than the current prize is sent by the next address, the transfer of funds(prize) must fail so as to remain as king. To do that the key lies in the receive function as it is the one that is called when king contract calls the transfer function.
 
 We do this by introducing a `receive` function that reverts no matter what.
 ```solidity

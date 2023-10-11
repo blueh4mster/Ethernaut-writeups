@@ -19,4 +19,5 @@ The wargame runs on testnets and you can interact with it through Web3js and Met
 [6. Delegation](lvl-6.md)\
 [7. Force](lvl-7.md)\
 [8. Vault](lvl-8.md)\
-[9. King](lvl-9.md)
+[9. King](lvl-9.md)\
+[10. Re-entrancy](lvl-10.md)
